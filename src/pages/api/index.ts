@@ -19,7 +19,7 @@ export const config = {
     "bru1",
     "cdg1",
     "cle1",
-    "cpt1a",
+    "cpt1",
     "dub1",
     "fra1",
     "gru1",
