@@ -131,7 +131,7 @@ export const post: APIRoute = async context => {
 
     const encoder = new TextEncoder()
     const decoder = new TextDecoder()
-
+    console.log(context.request.headers.get('X-Real-IP'));
     const rawRes = await fetchWithTimeout(
       `https://${baseURL}/v1/chat/completions`,
       {
